@@ -13,26 +13,27 @@
   <body>
     <nav>
       <div class="nav_content">
-        <div class="logo"><a href="#">Perseverance</a></div>
+        <div class="logo">
+          <a href="#">Perseverance</a>
+        </div>
         <label for="check" class="checkbox">
           <i class="ri-menu-line"></i>
         </label>
         <input type="checkbox" name="check" id="check" />
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Tech-Stack</li>
-          <li>Contact Me</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#stack">Tech-Stack</a></li>
+          <li><a href="#socials">Contact Me</a></li>
         </ul>
       </div>
     </nav>
     <section class="section">
       <div class="section_container">
         <div class="content">
-          <p class="subtitle">Hi</p>
-          <h1 class="titile">
-            I am <span>Perseverance Molefe <br />a</span> web developer
+          <p class="subtitle" id="about">Hi</p>
+          <h1 class="title">
+            My name is <span>Perseverance <br />and</span> I am a web developer.
           </h1>
           <p class="description">
             Welcome to my portfolio, I am a creative, detail-oriented and
@@ -43,13 +44,61 @@
             team goals.
           </p>
           <div class="buttons">
-            <button>resume</button>
+            <button class="resume" id="resume">Resume</button>
+            <script src="index.js"></script>
           </div>
         </div>
         <div class="image">
-          <img src="./Images/_MG_1329.jpg" alt="A Handsome young man" />
+          <img
+            src="./Images/_MG_1329.jpg"
+            alt="A Handsome young man"
+            width="594px"
+            height="396px"
+          />
         </div>
       </div>
     </section>
+    <div class="stack" id="stack">
+      <h1>Tech-Stack</h1>
+      <ul>
+        <li><img src="./Images/icons8-html-50.png" alt="html icon" /></li>
+        <li><img src="./Images/icons8-css-50.png" alt="css icon" /></li>
+        <li>
+          <img
+            src="./Images/icons8-javascript-logo-50.png"
+            alt="javascript icon"
+          />
+        </li>
+        <li>
+          <img src="./Images/icons8-android-50.png" alt="android icon" />
+        </li>
+        <li><img src="./Images/icons8-c-50.png" alt="C++ icon" /></li>
+        <li><img src="./Images/icons8-git-50.png" alt="git icon" /></li>
+        <li><img src="./Images/icons8-java-50.png" alt="java icon" /></li>
+        <li>
+          <img src="./Images/icons8-python-50.png" alt="python icon" />
+        </li>
+        <li>
+          <img src="./Images/icons8-postgres-50.png" alt="postgress icon" />
+        </li>
+        <li><img src="./Images/icons8-mysql-50.png" alt="mysql icon" /></li>
+      </ul>
+    </div>
+    <div class="contact" id="socials">
+      <h1>Contact Me</h1>
+      <a
+        href="https://www.facebook.com/profile.php?id=100075363123371"
+        target="_blank"
+        ><i class="ri-facebook-fill"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/perseverance-molefe-93b48a2b1/"
+        target="_blank"
+        ><i class="ri-linkedin-line"></i
+      ></a>
+      <a href="https://github.com/PerseveranceM" target="_blank"
+        ><i class="ri-github-line"></i
+      ></a>
+    </div>
   </body>
 </html>
