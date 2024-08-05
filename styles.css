@@ -90,6 +90,7 @@ ul li a:hover {
 }
 
 .section {
+  width: 100%;
   background-color: var(--extra-light);
 }
 
@@ -168,7 +169,7 @@ ul li a:hover {
 }
 
 .contact {
-  padding: 50px;
+  padding: 30px;
   text-align: center;
   background-color: var(--extra-light);
 }
@@ -180,7 +181,24 @@ ul li a:hover {
 }
 .contact h1 {
   margin-bottom: 15px;
-  padding: 50px;
+  padding: 30px;
+}
+.stack {
+  text-align: center;
+}
+.stack h1 {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.tech-icons img {
+  width: 50px;
+  height: 50px;
 }
 @media (width< 750px) {
   nav .checkbox {
@@ -216,5 +234,9 @@ ul li a:hover {
   }
   .contact h1 {
     font-size: 1.5em;
+  }
+  .tech-icons {
+    flex-direction: column;
+    align-items: center;
   }
 }
