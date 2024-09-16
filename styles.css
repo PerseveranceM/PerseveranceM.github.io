@@ -242,3 +242,9 @@ ul li a:hover {
     align-items: center;
   }
 }
+
+footer {
+  text-align: center;
+  background-color: var(--extra-light);
+  padding: 15px;
+}
